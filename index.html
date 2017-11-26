@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+		<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#" class="navbar-brand logo">MyBook</a>
+				</div>
+
+				<div class="col-md-8">
+					<form class="form-inline">
+						<div class="form-group">
+							<label for="inputuserName">User Name</label>
+					<input type="text" class="form-control" placeholder="User Name.." id="username">
+						</div>
+
+						<div class="form-group">
+							<label for="inputuserName">Password</label>
+					<input type="password" class="form-control" placeholder="Password." id="password">
+						</div>
+
+						<button type="button" class="btn btn-primary btn-sm">Sign in</button>
+
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Remember
+							</label>				
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>	
+		</header>
+
+
+		<nav class="navbar navbar-default" id="mainNav">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				data-target="#button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="button">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="members.html">Members</a></li>
+					<li><a href="#">Groups</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="photos.html">Photos</a></li>
+				</ul>
+		
+			</div>
+		</nav>
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<div class="panel-title">
+									Wall
+								</div>
+							</div>	
+								<div class="panel-body">
+									<form>
+										<div class="form-group">
+											<label>Description</label>
+										<textarea class="form-control" placeholder="Post Something"
+										 cols="10" rows="5">
+										</textarea>
+										</div>
+
+										<button type="button" class="btn btn-default">Submit</button>
+										<div class="pull-right">
+											<div class="btn-group">
+												<button type="button" class="btn btn-default">
+													<i class="fa fa-pencil" aria-hidden="true"></i>
+														Text
+												</button>
+
+												<button type="button" class="btn btn-default">
+												<i class="fa fa-picture-o" aria-hidden="true"></i>
+												        Images
+												</button>
+												<button type="button" class="btn btn-default">
+												<i class="fa fa-video-camera" aria-hidden="true"></i>
+														Videos
+												</button>
+											</div>
+										</div>
+									</form>
+								</div>
+						</div><!--Panel ends-->
+
+						<div class="panel panel-default post">
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-sm-2">
+										<a href="#" class="thumbnail">
+											<i class="fa fa-user" aria-hidden="true"></i>
+											<p class="text-center">User1</p>
+										</a>	
+									</div><!--col-sm-2 ends-->
+									<div class="col-sm-10">
+										<div class="bubble">
+											<div class="bubble-pointer">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maiores ex, cum. Assumenda repellat adipisci qui eaque repellendus, explicabo. Est!</p>
+												<div class="pointer-border"></div>
+											</div>
+										</div><!--bubble div ends-->
+										<p>
+											<a href="#">Comment</a>
+											<a href="#">Like</a>
+											<a href="#">Share</a>
+											<a href="#">Follow</a>
+										</p>
+										<form class="form-inline">
+											<div class="form-group">
+												<input type="text" class="form-control" 
+												placeholder="Enter Comment" id="Comment">
+											</div>
+										<button type="button" class="btn btn-default">Add</button>
+										</form>	
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel panel-default post">
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-sm-2">
+										<a href="#" class="thumbnail">
+											<i class="fa fa-user" aria-hidden="true"></i>
+											<p class="text-center">User2</p>
+										</a>	
+									</div><!--col-sm-2 ends-->
+									<div class="col-sm-10">
+										<div class="bubble">
+											<div class="bubble-pointer">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maiores ex, cum. Assumenda repellat adipisci qui eaque repellendus, explicabo. Est!</p>
+												<div class="pointer-border"></div>
+											</div>
+										</div><!--bubble div ends-->
+										<p>
+											<a href="#">Comment</a>
+											<a href="#">Like</a>
+											<a href="#">Share</a>
+											<a href="#">Follow</a>
+										</p>
+										<form class="form-inline">
+											<div class="form-group">
+												<input type="text" class="form-control" 
+												placeholder="Enter Comment" id="Comment">
+											</div>
+										<button type="button" class="btn btn-default">Add</button>
+										</form>	
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="clear-fix"></div>
+						</div><!--col-md-8 ends-->
+						<div class="col-md-4">
+							<div class="panel panel-default friends">
+								<div class="panel-heading">
+									<div class="panel-title">
+										My Friends
+									</div>
+								</div>	
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">
+													<i class="fa fa-user" aria-hidden="true"></i>
+													<p class="text-left">User</p>
+												</a>
+											</li>
+
+											<li><a href="#">
+													<i class="fa fa-user" aria-hidden="true"></i>
+													<p class="text-left">User</p>
+												</a>
+											</li>
+
+											<li><a href="#">
+													<i class="fa fa-user" aria-hidden="true"></i>
+													<p class="text-left">User</p>
+												</a>
+											</li>
+
+											<li><a href="#">
+													<i class="fa fa-user" aria-hidden="true"></i>
+													<p class="text-left">User</p>
+												</a>
+											</li>
+
+											<li><a href="#">
+													<i class="fa fa-user" aria-hidden="true"></i>
+													<p class="text-left">User</p>
+												</a>
+											</li>
+
+											<li><a href="#">
+													<i class="fa fa-user" aria-hidden="true"></i>
+													<p class="text-left">User</p>
+												</a>
+											</li>
+										</ul>
+										<div class="clearfix"></div>
+										<a href="#" class="btn btn-primary">View All Friends</a>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Copyright &copy:2017,All Right Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/three.js"></script>
+	</body>

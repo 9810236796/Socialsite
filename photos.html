@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+		<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#" class="navbar-brand logo">MyBook</a>
+				</div>
+
+				<div class="col-md-8">
+					<form class="form-inline">
+						<div class="form-group">
+							<label for="inputuserName">User Name</label>
+					<input type="text" class="form-control" placeholder="User Name.." id="username">
+						</div>
+
+						<div class="form-group">
+							<label for="inputuserName">Password</label>
+				<input type="password" class="form-control" placeholder="Password." id="password">
+						</div>
+
+						<button type="button" class="btn btn-primary btn-sm">Sign in</button>
+
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Remember
+							</label>				
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>	
+		</header>
+
+
+		<nav class="navbar navbar-default" id="mainNav">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				data-target="#button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="button">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="members.html">Members</a></li>
+					<li><a href="#">Groups</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="photos.html">Photos</a></li>
+				</ul>
+		
+			</div>
+		</nav>
+
+		
+		<section>
+			<div class="container">
+				<!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#all" aria-controls="all" 
+				    	role="tab" data-toggle="tab">All</a></li>
+				    <li role="presentation"><a href="#One" aria-controls="One" role="tab" 
+				    	data-toggle="tab">One</a></li>
+				    <li role="presentation"><a href="#Two" aria-controls="Two" role="tab"
+				     data-toggle="tab">Two</a></li>
+				  </ul>
+				  <br>
+
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane fade in active" id="all">
+				    	
+				    	<div class="row gallery">
+				    		<div class="col-md-4">
+				    		<a href="images/sample1.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image One">
+				    			<img src="images/sample1.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image One</div>
+				    		</div>
+
+				    		<div class="col-md-4">
+				    		<a href="images/sample2.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image Two">
+				    			<img src="images/sample2.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image Two</div>
+				    		</div>
+
+				    		<div class="col-md-4">
+				    		<a href="images/sample3.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image Three">
+				    			<img src="images/sample3.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image Three</div>
+				    		</div>
+				    	</div>
+
+						<div class="row gallery">
+							<div class="col-md-4">
+							<a href="images/sample4.jpg" data-lightbox="gallery"
+								 data-title="Sample Image Four">
+								<img src="images/sample4.jpg" class="img-thumbnail"></a>
+							<div class="title">Sample Image Four</div>
+							</div>
+
+							<div class="col-md-4">
+							<a href="images/sample5.jpg" data-lightbox="gallery"
+								 data-title="Sample Image Five">
+								<img src="images/sample5.jpg" class="img-thumbnail"></a>
+							<div class="title">Sample Image Five</div>
+							</div>
+
+							<div class="col-md-4">
+							<a href="images/myimage.jpg" data-lightbox="gallery"
+								 data-title="Sample Image Six">
+								<img src="images/myimage.jpg" class="img-thumbnail"></a>
+							<div class="title">Sample Image Six</div>
+							</div>
+						</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="One">
+				    	
+				    	<div class="row gallery">
+				    		<div class="col-md-4">
+				    		<a href="images/sample1.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image One">
+				    			<img src="images/sample1.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image One</div>
+				    		</div>
+
+				    		<div class="col-md-4">
+				    		<a href="images/sample2.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image Two">
+				    			<img src="images/sample2.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image Two</div>
+				    		</div>
+
+				    		<div class="col-md-4">
+				    		<a href="images/sample3.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image Three">
+				    			<img src="images/sample3.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image Three</div>
+				    		</div>
+				    	</div>
+
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="Two">
+				    	
+				    	<div class="row gallery">
+				    		<div class="col-md-4">
+				    		<a href="images/sample4.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image Four">
+				    			<img src="images/sample4.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image Four</div>
+				    		</div>
+
+				    		<div class="col-md-4">
+				    		<a href="images/sample5.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image Five">
+				    			<img src="images/sample5.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image Five</div>
+				    		</div>
+
+				    		<div class="col-md-4">
+				    		<a href="images/myimage.jpg" data-lightbox="gallery"
+				    			 data-title="Sample Image Six">
+				    			<img src="images/myimage.jpg" class="img-thumbnail"></a>
+				    		<div class="title">Sample Image Six</div>
+				    		</div>
+				    	</div>
+				    </div>
+				  </div>
+
+
+			</div>
+		</section>
+			
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Copyright &copy:2017,All Right Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/three.js"></script>
+	</body>
